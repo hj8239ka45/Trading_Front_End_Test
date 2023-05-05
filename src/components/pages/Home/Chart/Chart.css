@@ -1,0 +1,27 @@
+.floating-tooltip-2 {
+	position: absolute;
+	display: flex;
+	padding: 4.8% 0 0 0;
+	font-size: 12px;
+    color: rgba(240, 240, 240, 0.95);
+	text-align: left;
+	z-index: 1000;
+	left: 0.5vw;
+    line-height: 5px;
+	pointer-events: none;
+}
+
+.floating-tooltip-2 .date {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+.chart-container {
+  height:100%;
+  width: 100%;
+}
+.chart_ref {
+	height:100%;
+}

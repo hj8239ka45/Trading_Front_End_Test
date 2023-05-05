@@ -1,0 +1,28 @@
+.chart#chart_a {
+    border: 1px solid gray;
+    width: 80%;
+    height: 60vh;
+}
+.chart#chart_c {
+    border: 1px solid gray;
+    width: 80%;
+    height: 34vh;
+}
+.timeSelect {
+    border: 1px solid gray;
+    width: 20%;
+    height: 34vh;
+}
+.timeSelector {
+    padding: 10% 10% 0 10%;
+}
+.timeSelect-changeinedex {
+    margin: 15% 10% 5% 10%;
+}
+
+.timeSelect-selector,.timeSelect-num {
+    margin: 0 10% 5% 10%;
+}
+.timeSelect-send {
+    margin-left: 50%
+}

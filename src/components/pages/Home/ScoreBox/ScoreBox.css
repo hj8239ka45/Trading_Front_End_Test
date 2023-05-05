@@ -1,0 +1,89 @@
+.ScoreBox {
+  text-align: center;
+}
+.score{
+  
+}
+  
+.reddot{
+  height:5vh;
+  width:5vh;
+  background-color: rgb(255, 2, 2);
+  border-radius: 50%;
+  position: relative;
+  left:35%;
+  border: 2px solid rgb(3, 3, 3);
+  text-align: center;
+  font-size: 2vh;
+  font-weight: bold;;
+  font-family: DFKai-SB ;
+  line-height: 45px;
+}
+.pinkdot{
+  height:5vh;
+  width:5vh;
+  background-color: rgb(248, 107, 107);
+  border-radius: 50%;
+  position: relative;
+  left:35%;
+  border: 2px solid rgb(3, 3, 3);
+  text-align: center;
+  font-size: 2vh;
+  font-weight: bold;;
+  font-family: DFKai-SB ;
+  line-height: 45px;
+}
+.graydot{
+  height:5vh;
+  width:5vh;
+  background-color: rgb(230, 230, 230);
+  border-radius: 50%;
+  position: relative;
+  left:35%;
+  border: 2px solid rgb(3, 3, 3);
+  text-align: center;
+  font-size: 2vh;
+  font-weight: bold;;
+  font-family: DFKai-SB;
+  line-height: 45px;
+}
+.skydot{
+  height:5vh;
+  width:5vh;
+  background-color: rgb(0, 217, 255);
+  border-radius: 50%;
+  position: relative;
+  left:35%;
+  border: 2px solid rgb(3, 3, 3);
+  text-align: center;
+  font-size: 2vh;
+  font-weight: bold;;
+  font-family: DFKai-SB;
+  line-height: 45px;
+}
+.bluedot{
+  height:5vh;
+  width:5vh;
+  background-color: rgb(2, 27, 255);
+  border-radius: 50%;
+  position: relative;
+  left:35%;
+  border: 2px solid rgb(3, 3, 3);
+  text-align: center;
+  font-size: 2vh;
+  font-weight: bold;;
+  font-family: DFKai-SB;
+  line-height: 45px;
+}
+.word{
+    font-size: 30px;
+    font-weight: bold;;
+    font-family: DFKai-SB;
+    position: relative;
+    left:40%;
+    top: -48px;
+}
+
+.userinfo{
+    background-color: rgb(209, 155, 155);
+}

@@ -1,0 +1,102 @@
+.TradeBox{
+}
+.tablist{
+    display: flex;
+}
+.tabbuy {
+
+    display: inline-block;
+    border: 2px solid transparent;
+    font-family: DFKai-sb;
+    font-weight:bold;
+    font-size: 20px;
+    margin-right: 10px;
+    background-color: silver;
+    border-color: silver;
+    padding: 6px 12px;
+    cursor: pointer;
+  }
+.tabsell {
+    display: inline-block;
+    border: 2px solid transparent;
+    font-family: DFKai-sb;
+    font-weight:bold;
+    font-size: 20px;
+    color: white;
+    background-color: red;
+    border-color: red;
+    padding: 6px 12px;
+    cursor: pointer;
+  }
+.tabcurrent{
+    display: inline-block;
+    background-color:transparent;
+    margin-right: 10px;
+    font-family: DFKai-sb;
+    font-weight:bold;
+    font-size: 30px;
+    cursor: pointer;
+}
+.tabmarket {
+    display: inline-block;
+    background-color:transparent;
+    font-family: DFKai-sb;
+    font-weight:bold;
+    font-size: 30px;
+    cursor: pointer;
+}
+.tabbuy--selected {
+    background: silver;
+    border-color: gray;
+    color: black;
+  }
+.tabsell--selected {
+    background: red;
+    border-color: blue;
+    color: white;
+  } 
+.tabcurrent--selected {
+    color: orange;
+  } 
+.tabmarket--selected {
+    color: orange;
+  } 
+.tabbuy--disabled {
+    color: GrayText;
+    cursor: default;
+  }
+.tabsell--disabled {
+    color: GrayText;
+    cursor: default;
+  }
+.tabcurrent--disabled {
+    color: GrayText;
+    cursor: default;
+  }
+.tabmarket--disabled {
+    color: GrayText;
+    cursor: default;
+  }
+
+
+
+.input-trade {
+    width: 35%;
+    height: 2%;
+    padding: 0.5% 2% 0.5% 2%;
+    border-radius: 0.6vh;
+}
+.label-trade {
+    margin-left: 10%;
+    margin-bottom: 5px;
+    transition: 0.4s;
+}
+
+
+.marketprice {
+  display: inline-block;
+  width: 35%;
+  height: 2%;
+  padding: 0.5% 0 0.5% 0;
+  margin-left: 10%;
+}
