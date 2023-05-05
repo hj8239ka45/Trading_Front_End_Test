@@ -4,9 +4,9 @@
 ###    (1.2) 使用react-router-dom建立起頁面跳轉系統
 ###    (1.3) 使用react-bootstrap快速建立header導覽頭
 ##  2.page/home
-###      2.1FetchAPI 抓取幣安API，並進行資料更新
+###      2.1 FetchAPI 抓取幣安API，並進行資料更新
         (2.1.1) 使用fetch方式將binance api取出並使用map進行重新整理封裝成dictionary，根據useEffect狀態變化以及setIntervalTime之定時呼叫，對fetchAPI進行資料更新
-###      2.2chart    將抓到的資料進行繪圖
+###      2.2 chart    將抓到的資料進行繪圖
         (2.2.1) 使用light-weight建立K線圖功能
         (2.2.2) 使用Hook建立useRef進行圖形乘載，由於home處會建立三張不同功能線圖，在初始建立圖形(chart_layout)會由home傳入props.chartType進行不同設定。
         (2.2.3) 在timescale的部分建立tickMarkFormatter，使圖形時間可自定義顯示時間區間，如使用分鐘線則顯示幾小時幾分鐘，使用日線則顯示幾月幾日；在localization設定時差
@@ -15,21 +15,21 @@
         (2.2.6) 於第一張圖左上顯示游標指向之資料即時顯示(chartbox):
                 1. 使用document.createElement('div')建立圖區進行顯示資料
                 2. 使用chart.current.subscribeCrosshairMove與游標在圖形上的位置進行連動，紀錄位置參數
-###      2.3TradesHistoryList    顯示進行歷史成交價
+###      2.3 TradesHistoryList    顯示進行歷史成交價
         (2.3.1) 將FetchAPI得到資料透過dataSource傳入
         (2.3.2) 使用ali開發之表格套件，並使用pipeline.input規劃傳入之dataSource(可自動刷新)
                 使用pipeline.use規劃資料排列順序
-###      2.4ProductList          顯示產品即時價格
+###      2.4 ProductList          顯示產品即時價格
         (2.4.1) 將FetchAPI得到資料透過dataSource傳入
         (2.4.2) 資料先經由Set格式之symbols_allowed並使用filter進行篩選，挑選出常使用之虛擬貨幣產品進行顯示
         (2.4.3) 使用ali開發之表格套件，並使用pipeline.input規劃傳入之dataSource(可自動刷新)
                 使用pipeline.use規劃資料排列順序
         (2.4.4) 建立產品點選事件，使目前點選的產品被額外框線強調，並回傳給home目前參考產品名稱
-###      2.5TradeList
+###      2.5 TradeList
 
-###      2.6SoreBox
+###      2.6 SoreBox
 
-###      2.7TradeBox
+###      2.7 TradeBox
 ##  3.page/user
 
 ##  4.page/backtesting
