@@ -34,7 +34,8 @@
 
 ##  4.page/backtesting
 ##  5.page/index
-##  6.redux
+##  6.redux  
+![image](https://user-images.githubusercontent.com/39979565/236742734-2578d769-a004-450c-8360-58e888ca93a8.png)
 ###    (6.1)用途
         用於建立最外層之index.js內部所有狀態溝通連結
 ###    (6.2)constant
