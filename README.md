@@ -79,3 +79,7 @@
         使用persistStore保留store資料不被F5或頁面跳轉刷新
 ###    (6.8)ref
         https://www.youtube.com/watch?v=ueTDYjtvSBI&list=PLmOn9nNkQxJFJXLvkNsGsoCUxJLqyLGxu&index=103
+##  7.目前成果  
+![image](https://user-images.githubusercontent.com/39979565/236743237-4cd0b5d6-badb-4570-9bc0-205e097c2cf5.png)
+![image](https://user-images.githubusercontent.com/39979565/236743348-e68c6422-aa10-43f0-aab8-81b15a84b53c.png)
+
